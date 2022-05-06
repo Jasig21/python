@@ -1,0 +1,9 @@
+#### Objectif du script : 
+
+Transformer en GeoJson tous les fichiers Shapefile trouvés dans le repertoire en entrée (data_devoir_01/in) et les écrire dans le repertoire en sortie (data_devoir_01/out).
+
+Le script doit prendre 2 arguments: 
+    - repertoire en entrée
+    - repertoire en sortie (à créer s'il n'existe pas)
+
+La transformation de chaque Shapefile passera par son chargement dans un GeoDataFrame. 
